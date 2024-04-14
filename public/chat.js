@@ -1,6 +1,6 @@
 // Make connection
 
-const socket = io.connect("http://localhost:3000");
+const socket = io.connect("https://socket-chat-gj7t.onrender.com");
 
 var message = document.getElementById('message'),
     handle = document.getElementById('handle'),
